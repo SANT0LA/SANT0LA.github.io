@@ -497,11 +497,13 @@ img { max-width: 100%; display: block; }
 }
 .project-featured-tag i { font-size: 13px; }
 .project-featured-grid {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 32px;
-  align-items: end;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   position: relative;
+}
+.project-featured-actions {
+  display: flex;
 }
 .project-featured h3 {
   font-family: var(--font-display);
@@ -592,7 +594,6 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 760px) {
-  .project-featured-grid { grid-template-columns: 1fr; align-items: start; }
   .projects-grid { grid-template-columns: 1fr; }
 }
 

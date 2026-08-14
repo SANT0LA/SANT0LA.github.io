@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.44.0/iconfont/tabler-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -63,7 +63,7 @@
 
       <aside class="hero-card">
         <div class="hero-photo">
-          <img src="assets/foto.png" alt="Foto de João Victor Santos">
+          <img src="assets/foto.jpg" alt="Foto de João Victor Santos">
         </div>
         <ul class="hero-meta">
           <li><i class="ti ti-map-pin"></i> Salvador, BA</li>
@@ -72,8 +72,8 @@
         </ul>
         <div class="hero-social">
           <a href="https://www.linkedin.com/in/joão-victor-santos-dos-santos/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+          <a href="https://github.com/SANT0LA" target="_blank" rel="noopener" aria-label="GitHub"><i class="ti ti-brand-github"></i></a>
           <a href="mailto:jvsant1000@gmail.com" aria-label="E-mail"><i class="ti ti-mail"></i></a>
-          <a href="tel:+5571993744305" aria-label="Telefone"><i class="ti ti-phone"></i></a>
         </div>
       </aside>
     </div>
@@ -177,12 +177,15 @@
         <div class="project-featured-grid">
           <div>
             <h3>Predictive Maintenance Intelligence</h3>
-            <p class="project-desc">Case de análise de dados industrial: um estudo de manutenção preditiva que parte de dados brutos de sensores e histórico de falhas para identificar padrões e antecipar quebras de equipamentos, apoiando decisões de manutenção antes que o problema aconteça.</p>
+            <p class="project-desc">Case de manutenção preditiva industrial: a partir do dataset AI4I 2020 (10 mil operações de máquinas de fresagem), o projeto percorre todo o fluxo de análise — limpeza e auditoria dos dados, EDA, consultas em SQL, modelagem preditiva com XGBoost, explicabilidade via SHAP e um dashboard executivo em Power BI. O modelo final identifica 89% das falhas reais com 77% de precisão, convertendo previsão em recomendação de ação (classificação de risco e inspeção prioritária).</p>
             <div class="project-tags">
               <span>Python</span>
               <span>Pandas</span>
-              <span>Jupyter Notebook</span>
-              <span>Análise Exploratória</span>
+              <span>PostgreSQL</span>
+              <span>Scikit-learn</span>
+              <span>XGBoost</span>
+              <span>SHAP</span>
+              <span>Power BI</span>
             </div>
           </div>
           <a href="https://github.com/SANT0LA/Predictive-Maintenance-Intelligence" target="_blank" rel="noopener" class="project-link project-link-primary">
@@ -204,16 +207,17 @@
           </a>
         </div>
 
-        <div class="project-card project-card-soon">
-          <h3>Projeto em Power BI</h3>
-          <p class="project-desc">Novo projeto de dashboard construído em Power BI — em finalização.</p>
+        <div class="project-card">
+          <h3>Probabilidades do Brasileirão</h3>
+          <p class="project-desc">Análise probabilística completa do Campeonato Brasileiro usando simulações Monte Carlo (10 mil simulações). Calcula em tempo real a chance de cada time ser campeão, entrar no G4, se classificar para Libertadores/Sul-Americana ou ser rebaixado, com frontend interativo em Streamlit.</p>
           <div class="project-tags">
-            <span>Power BI</span>
-            <span>DAX</span>
+            <span>Python</span>
+            <span>Streamlit</span>
+            <span>Simulação Monte Carlo</span>
           </div>
-          <span class="project-link project-link-disabled">
-            Em breve <i class="ti ti-clock"></i>
-          </span>
+          <a href="https://github.com/SANT0LA/futebol-probabilidade" target="_blank" rel="noopener" class="project-link">
+            Ver no GitHub <i class="ti ti-arrow-up-right"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -289,9 +293,9 @@
           <i class="ti ti-mail"></i>
           <span>jvsant1000@gmail.com</span>
         </a>
-        <a href="tel:+5571993744305" class="contact-link">
-          <i class="ti ti-phone"></i>
-          <span>(71) 99374-4305</span>
+        <a href="https://github.com/SANT0LA" target="_blank" rel="noopener" class="contact-link">
+          <i class="ti ti-brand-github"></i>
+          <span>GitHub</span>
         </a>
         <a href="https://www.linkedin.com/in/joão-victor-santos-dos-santos/" target="_blank" rel="noopener" class="contact-link">
           <i class="ti ti-brand-linkedin"></i>
